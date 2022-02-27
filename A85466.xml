@@ -1,0 +1,752 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The gossips feast or, Morrall tales taking a view of things past, discoursing of things present, and conjecturing of things to come. By a well known moderne author.</title>
+            <author>A Well Known Moderne Author.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1647</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 27 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A85466</idno>
+            <idno type="STC">Wing G1316</idno>
+            <idno type="STC">Thomason E404_11</idno>
+            <idno type="STC">ESTC R201849</idno>
+            <idno type="EEBO-CITATION">99862338</idno>
+            <idno type="PROQUEST">99862338</idno>
+            <idno type="VID">160456</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A85466)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 160456)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 64:E404[11])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The gossips feast or, Morrall tales taking a view of things past, discoursing of things present, and conjecturing of things to come. By a well known moderne author.</title>
+                  <author>A Well Known Moderne Author.</author>
+               </titleStmt>
+               <extent>[3], 13 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London: :</pubPlace>
+                  <date>Printed anno Domini, 1647.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Pagination begins on a verso.</note>
+                  <note>Partly in verse.</note>
+                  <note>Annotation on Thomason copy: "Aug: 23".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  History --  Civil War, 1642-1649 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-08</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2010-08</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:160456:1" rendition="simple:additions"/>
+            <p>THE GOSSIPS FEAST OR, MORRALL TALES TAKING A view of things paſt, diſcourſing of things preſent, and conjecturing of things to come.</p>
+            <p>
+               <hi>By a well known moderne Author.</hi>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed <hi>Anno Domini,</hi> 1647.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:160456:2"/>
+            <pb facs="tcp:160456:2"/>
+            <head>To the Reader,</head>
+            <opener>
+               <salute>Courteous and mild,</salute>
+            </opener>
+            <p>THough this be the laſt of Ages (in moſt mens Iudg<g ref="char:EOLhyphen"/>ment) yet all men muſt conceive that is the firſt, of Ages, that after ſo many pens were imployed, to ſo little purpoſe, and ſo many Pamphlets publiſhed, to ſo little Edi<g ref="char:EOLhyphen"/>fication, I have adventured to thruſt in among the crowd, and publiſh my ſelfe in Print, as well as others, leſt <hi>I</hi> ſhould be rebuked of ſome, who would eſteeme me proud and ſcornfull, and an affector of ſingularity, if I gave not the world cauſe, to laugh at me as well as themſelves, Tis truth, I have written ſomething heretofore, very well taken for the generall, but never in this kind; and therefore I have ſome reaſon to appollogize for my ſelfe. Firſt, I in<g ref="char:EOLhyphen"/>treat the Reader not to blame the contecture of my Piece becauſe thou underſtandeſt it not, nor when thou haſt ſound my meaning to be to raſh in thy cenſure, for I write not of ſpleene, neither ſhalt thou find any more Sattynck expreſsions in this Booke, then ſuch as if thou be queaſie ſtomackt thou mayeſt eaſily diſgeſt, for my method I need not I ſuppoſe explaine my ſelfe, I am not alone Homer, by the mouth of a frog relates his mind, and Virgill will have a Gnat to tell his ſtory, if my language be not ſuffi<g ref="char:EOLhyphen"/>ciently refined, I hope the courteous will conceive that ſuch plaine creatures as theſe by whom I ſpeak are not ſtudious how to ſpeake queintly, nor one greatly acquain<g ref="char:EOLhyphen"/>ted with eloquent phraſes if thou beeſt a Schollar or Gentleman, I humbly take my leave.</p>
+         </div>
+      </front>
+      <body>
+         <div type="tales">
+            <pb facs="tcp:160456:3"/>
+            <head>THE GOSSIPS FEAST, <hi>OR,</hi> MORALL TALES:</head>
+            <p>MOther <hi>Bumbers</hi> Daughter, being made acquainted with that blandum mitrerium (as <hi>Treſmegitus</hi> tearmes it) and having ſhot the ſtarre of her virginity, and furniſhed the world with another propagator, the good old woman mother <hi>Bumbei</hi> one repvted a cunning woman, and to have know<g ref="char:EOLhyphen"/>ledge in things to come, ſo ordered that although God-fa<g ref="char:EOLhyphen"/>thers might not be permitted, to take the charge of a childe (ſhould the Parents deceaſe) it being impious in that Age &amp; Country wherein ſhe lived, to provide for widdowes, &amp; Or<g ref="char:EOLhyphen"/>phans, yet ſhe prevailed to have Goodman <hi>Laſt-Time,</hi> and Goodman <hi>Wicked-Time</hi> to ſtand as Godfathers, and Gammer <hi>Divelliſh Plot,</hi> and Gammer <hi>Hate-King</hi> to bee Godmothers, who that they might not incur the fury of the times, ſtood mute, and were but dumbe witneſſes, and ſo let the Childe who was named <hi>Rotundus,</hi> to confeſſe its own Faith, who be<g ref="char:EOLhyphen"/>ing demanded by the Miniſter, who was called <hi>(All-ſhew)</hi> whether he forſook the Divell and all his workes, the vaine
+<pb facs="tcp:160456:3"/>pomp and glory of the world, with all covetous, deſires of the fleſh ſo that he would not follow nor be led by them, mira<g ref="char:EOLhyphen"/>culouſly and contrary to nature ſpake, ſaying. <hi>I am borne, and for this end came I into the world that I might cleave to the Di<g ref="char:EOLhyphen"/>vell and be an Agent with him in all his workes to affect the pomp and glory of the world with covetous deſires of the fleſh, for which end I will attempt to extirpe Monarchy, and ſet up Anar<g ref="char:EOLhyphen"/>chy, to pull down all order, and erect the worſt of diſorder, to demo<g ref="char:EOLhyphen"/>liſh Cities, and deſtroy Nations, yea even to diſtur be the whole world;</hi> the witneſſes and Goſſops much affrighted at this pro<g ref="char:EOLhyphen"/>degie would have bin gone, but that mother <hi>Bumbey</hi> ſtayed them ſaying, <hi>Truſt me my Neighbors this child is born to great and ample fortune, born to be beloved of Neblemen, Gentlemen, &amp; Citizent, who ſhall ſo hearken to his allurements, that to ſhield him ſecurely, they ſhall forge their own ſafety, and by his perſwaſions ſhall bee ſtirred up to attempt that which ſhall prove fatall vnto them.</hi> Come my good neighbors, let us home, I have already prepared an hogſhead of nappy. Ale, with a Gammon of Ba<g ref="char:EOLhyphen"/>con, &amp; other good accowtrements, which to day wee'l make merry with: this motion <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iked the whole crew, and now the Godfathers and Godmothers accompanied with two other old crones mother Coutie Legs, and mother Crumble tart, and froppiſh old ſhrews each of them greatly delighting to tell old Stories, downe in the dayes of yore, and you know well that it often hapneth that thoſe Stories which ſuch relate though the are trve in part, yet it is their manner, either to adde or diminiſh, according to their own fancy, and infinitly to falfiſie the truth; theſe Goſſips having fated themſelves ſufficiently with meat and waxing ſomthing warme with ale, Mother <hi>Bumbey</hi> motioned that each Goſſip ſhould ſing a catch, but Gammer <hi>Grumble</hi> replyed, they in doing ſo, ſhould loſe much time, which they might thriftily employ in tipling, no, ſaid Gammer <hi>Gowty Legs.</hi> my goſſip <hi>Bumbey</hi> hath made ene a very good motion mirth is the beſt ſpice for Ale in my mind, every one her ſong, Mother <hi>Bumbey</hi> do you begin; Mo<g ref="char:EOLhyphen"/>ther <hi>Bumbey</hi> replyed, it is an old Ballad which I have heard my mother often ſing in the winter nights by the fire ſide; ſhe was a good old woman, and well beloved of her Neigh<g ref="char:EOLhyphen"/>bours,
+<pb n="3" facs="tcp:160456:4"/>though I ſay't that ſhould not; but this was her Song.</p>
+            <lg>
+               <l>
+                  <hi>THere was a King ins Cradle crownd,</hi>
+               </l>
+               <l>
+                  <hi>That rul'd</hi> Great Brittain <hi>with his power,</hi>
+               </l>
+               <l>
+                  <hi>Was for his puiſsance Renown'd,</hi>
+               </l>
+               <l>
+                  <hi>Who kept</hi> Mars <hi>priſoner in his Tower;</hi>
+               </l>
+               <l>
+                  <hi>He had the happy Fate</hi>
+               </l>
+               <l>
+                  <hi>To live in quiet ſtate</hi>
+               </l>
+               <l>
+                  <hi>Surrendring of his Crown in peace,</hi>
+               </l>
+               <l>
+                  <hi>Leaving to his Sonne</hi>
+               </l>
+               <l>
+                  <hi>What himſelfe had wonne</hi>
+               </l>
+               <l>
+                  <hi>Whoſe Fame did more and more encreaſe.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>But the Fates were angry at his bliſse,</hi>
+               </l>
+               <l>
+                  <hi>And did conſpire to work him woe,</hi>
+               </l>
+               <l>
+                  <hi>The beſt of all the vertues his,</hi>
+               </l>
+               <l>
+                  <hi>Which after wrought his overthrow;</hi>
+               </l>
+               <l>
+                  <hi>What he did for the beſt,</hi>
+               </l>
+               <l>
+                  <hi>Did turn to his unreſt,</hi>
+               </l>
+               <l>
+                  <hi>And wrought the fall of many Peeres,</hi>
+               </l>
+               <l>
+                  <hi>Each his Neighbour ſlew</hi>
+               </l>
+               <l>
+                  <hi>But the reaſon no man knew</hi>
+               </l>
+               <l>
+                  <hi>Why they ſhould thus cauſe each others feares.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Like a tall Stag the King doth flye,</hi>
+               </l>
+               <l>
+                  <hi>The nobleſt of them heard him near,</hi>
+               </l>
+               <l>
+                  <hi>The Hounds purſu'd him with a cry</hi>
+               </l>
+               <l>
+                  <hi>Hoping ere long his Hide to teare;</hi>
+               </l>
+               <l>
+                  <hi>Yet ſometimes he made head,</hi>
+               </l>
+               <l>
+                  <hi>Nor would be worried,</hi>
+               </l>
+               <l>
+                  <hi>But laid his Foes oft on the ground;</hi>
+               </l>
+               <l>
+                  <hi>Yet at length for want of care,</hi>
+               </l>
+               <l>
+                  <hi>Was taken in the ſnare,</hi>
+               </l>
+               <l>
+                  <hi>And for his faults put in the Pound.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="4" facs="tcp:160456:4"/>
+               <l>
+                  <hi>His Train diſpierſt he left alone,</hi>
+               </l>
+               <l>
+                  <hi>None ſuffered nere him to abide,</hi>
+               </l>
+               <l>
+                  <hi>But ſuch as could adde to his mone,</hi>
+               </l>
+               <l>
+                  <hi>And guilty were of Patricide,</hi>
+               </l>
+               <l>
+                  <hi>There to himſelfe he wail'd</hi>
+               </l>
+               <l>
+                  <hi>That ſinne had ſo prevail'd,</hi>
+               </l>
+               <l>
+                  <hi>With watry eyes, theſe words he ſaid</hi>
+               </l>
+               <l>
+                  <hi>Had I ne're given conſent</hi>
+               </l>
+               <l>
+                  <hi>To a threefold Parliament</hi>
+               </l>
+               <l>
+                  <hi>I had not now in hands been laid.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>When loe aſſiſtance from above,</hi>
+               </l>
+               <l>
+                  <hi>Even thoſe who erſt had ſought his ill,</hi>
+               </l>
+               <l>
+                  <hi>Had their hate converted into love,</hi>
+               </l>
+               <l>
+                  <hi>And vowed his wiſhes to fulfill</hi>
+               </l>
+               <l>
+                  <hi>An Army ſtrong and brave</hi>
+               </l>
+               <l>
+                  <hi>That before did nothing crave</hi>
+               </l>
+               <l>
+                  <hi>But wayes to pull down Monarchy,</hi>
+               </l>
+               <l>
+                  <hi>On the ſudden altered were,</hi>
+               </l>
+               <l>
+                  <hi>Reſolved his throne to reare</hi>
+               </l>
+               <l>
+                  <hi>Above his famoas Anceſtry.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>And now ſit still, and blow the fire,</hi>
+               </l>
+               <l>
+                  <hi>Great</hi> Charles, <hi>let parties parties quell,</hi>
+               </l>
+               <l>
+                  <hi>Riding on both gaine thy deſire,</hi>
+               </l>
+               <l>
+                  <hi>And then buy thoſe that did thee ſell;</hi>
+               </l>
+               <l>
+                  <hi>The Fates are juſt,</hi>
+               </l>
+               <l>
+                  <hi>And</hi> Jove <hi>I trust</hi>
+               </l>
+               <l>
+                  <hi>Will ſtate thee as thou wert before:</hi>
+               </l>
+               <l>
+                  <hi>Then will we ſing,</hi>
+               </l>
+               <l>
+                  <hi>Long live the King,</hi>
+               </l>
+               <l>
+                  <hi>And ſend him bliſſe for evermore.</hi>
+               </l>
+            </lg>
+            <p>
+               <pb n="5" facs="tcp:160456:5"/>
+The Goſſips were well pleaſed with the contents of this an<g ref="char:EOLhyphen"/>tient Ballad and Gammer <hi>Gowty Legs</hi> replyed, by my faith <hi>Martin Parker</hi> never got a faſter Brat, no, not when he pend that ſweet Ballad, <hi>When the King injoyes his own again.</hi>
+            </p>
+            <p>Quoth Gammer <hi>Grumble,</hi> nay mother <hi>Bumbey,</hi> lets now have your tale too, each of us will do the like every one of us ſhall ſing a ſong and tell a tale, and ſo we will drive away the tedious night; but firſt ſtirre up the fire, and let us have the other pitcher of Ale Mother <hi>Bumbey</hi> replyed my good neigh<g ref="char:EOLhyphen"/>bour, in my mind your councell is good and ſeaſonable I will rehearſe unto you an ancient tale which I have often heard, Mother <hi>Hookenoſe</hi> my Mothers mate, repeat.</p>
+            <p>There is an Iſland in the world, which is wholly ſurrounded with the Sea, at firſt inhabited with Gyants, afterwards cer<g ref="char:EOLhyphen"/>tain Outlawes exploring about the world for ſhelter, landing there, and finding the Soile fat, and the Climate temperate, reſolved to make their abode there, and in divers conflicts diſcomfited the Gyants, and their Prince began to ſway with regall power; after they mightily increaſed, and became very numerous, and were ſubject under many famous Kings, their neighbors the Picts or Scots and unfaithfull, or perjured ge<g ref="char:EOLhyphen"/>neration on all occaſions took opportunity to invade them, &amp; often made incurſions and inrodes, but it ſo hapned after the death of a Maiden Queen the daughter of one of their mag<g ref="char:EOLhyphen"/>nificent Kings, they with one conſent, choſe a King of the Picts or Scots to be their King, partly for that it was his by ſucceſſion, partly in hope to prevent future wars and with an intent to unite the two Kingdoms; but after his death, his ſon a vertuous and mild Prince, began to reigne, at what time it happened, that the Almighty wroth with the people of that Land for their crying ſins<g ref="char:punc">▪</g> called a fury to him (named <hi>Conten<g ref="char:EOLhyphen"/>tion</hi>) and gave her Commiſſion to uſe all meanes and practiſe all wayes, to diſſolve and break the peace of that people, &amp; to make them as throughly wretched and miſerable as they were before glorious and potent; the Fury<g ref="char:punc">▪</g> according to her com<g ref="char:EOLhyphen"/>mand at her arrivall ſo wrought and tempered the mindes of ſome of the chiefe of that Ille, that they began to grudge at
+<pb n="6" facs="tcp:160456:5"/>their own welfare; and therefore now they would be no lon<g ref="char:EOLhyphen"/>ger contentd to continue in the ſtate they were; but would firſt after their government; Secondly, limit Kingly power; Thirdly, have no Uniformity in Gods Worſhip: the Prince of this People perceiving what Contention had done, &amp; that his people dayly made head againſt him, giving out dange<g ref="char:EOLhyphen"/>rous ſpeeches, and threats, hee being then in his Palace ſcitua<g ref="char:EOLhyphen"/>ted in the chiefe City of his Land called <hi>Cleapolas,</hi> with ſome few of his loyall Subjects, who could not bee drawne to take part againſt him, fled away to the further part of his King<g ref="char:EOLhyphen"/>dome there to arme his faithfull Subjects againſt thoſe, who had put on Armour againſt him erected his Royall Standard, to which reſorted many thouſands of his people many noble Peers, valiant Knights and gallant ſpirited Gentlemen, ſo that he had gathered a ſtrong and reſolved Army, with which hee often encountted his Enemies, ſlaying thouſands of them, and oncr brought them ſo low, that they would have made peace with him on reaſonable conditions; but after, through the ne<g ref="char:EOLhyphen"/>gligence of his Commanders who gave their mindes more to inrich themſelvs with plunder then to do him ſervice, to ſerve in the wars of <hi>Venus,</hi> then thoſe of <hi>Mars,</hi> hee was on a ſudden vanquiſhed and then being plunged in a Sea of miſery, hee hazarded his Royall Perſon, and then with two or three of his moſt truſty friends took his flight to the Picts, of whom hee was firſt royally entertained, and his friends had faire hopes that that Nation would then by preſerving his perſon, have wiped away the ſtain wherewith they have from the begin<g ref="char:EOLhyphen"/>ning been branded of being diſloyall and treacherous; but their entertainment was only ſuch as an Inne-keeper afford<g ref="char:EOLhyphen"/>eth his Gueſt to make the beſt of him O diſloyall traytors, til they had made their bargaine to the utmoſt, they ſtood on termes capittulating about his honour and ſafety; but when they were aſſured of their vaſt ſums, they ſold him into their hands, who perſecuted him: the conſideration of ſo vile an act made many hearts ready to breake, and moved an odd fellow to write this Poem, which he called</p>
+            <lg>
+               <pb n="7" facs="tcp:160456:6"/>
+               <head>The Scottiſh Treachery.</head>
+               <l>HA! can the Scots be ſo perfidious found,</l>
+               <l>(What doubt I it) their beſt of deeds were crownd,</l>
+               <l>Even <hi>(ab origine)</hi> with horrid Treaſon,</l>
+               <l>And can they now be loyall out of ſeaſon;</l>
+               <l>Nature fore-ſaw the baſeneſſe of their ſtem,</l>
+               <l>And ſcornes that they ſhould touch her garments hem:</l>
+               <l>And that they may as is their merits eate</l>
+               <l>She feeds them like to Swine, with Oates, not wheat:</l>
+               <l>Were <hi>Iudas</hi> now alive he ſooner might</l>
+               <l>Lay hold on mercy, be a Convertite,</l>
+               <l>Then find a tree, bought with his ill bought pelfe,</l>
+               <l>Where he might mock his woe, and hang himſelfe.</l>
+               <l>Brethren hereafter wee'l your march fore-ſtall,</l>
+               <l>And ſtop your paſſage with an Adrian wall:</l>
+               <l>You have done well; wondrous well I vow,</l>
+               <l>Your utmoſt praiſes Ile to you allow:</l>
+               <l>You forc't <hi>Newcaſtle,</hi> which affords this ſenſe,</l>
+               <l>Deſperate Traytors, fight with confidence:</l>
+               <l>Two hundred thouſand pound; why! ſuch a ſumme,</l>
+               <l>would make men march, without or Fife or Drum,</l>
+               <l>Even in the face of death, (it was the Gold)</l>
+               <l>Made you defend the Cauſe, (your zeale was cold)</l>
+               <l>As is your Horizon, what was there none</l>
+               <l>That you might practiſe your black Ills upon,</l>
+               <l>But even your Soveraign (O unhoſpitable)</l>
+               <l>Your Lands a Den, like <hi>Diomedes</hi> ſtable,</l>
+               <l>Or like <hi>Avernus</hi> Lake leading to Hell,</l>
+               <l>It ruines all approach it; what to ſell</l>
+               <l>Your King for money (O perfidious Act)</l>
+               <l>
+                  <hi>Demoſthenes</hi> could not excuſe the Fact,</l>
+               <l>Could I work your converſion by my rime,</l>
+               <l>Yea great in ills, could that excuſe your crime,</l>
+               <l>All true hearts will the ancient phraſe renew,</l>
+               <l>I hate him, as a Scotchman or a Jew,</l>
+               <l>
+                  <hi>Neptune,</hi> that he Almighty <hi>Iove</hi> may pleaſe,</l>
+               <l>Will ſwallow up your ſhips, that ſcoure his Seas,</l>
+               <l>Or if they arrive on any forraign Coaſt,</l>
+               <l>Your hungry expectation will be loſt.</l>
+               <l>
+                  <pb n="8" facs="tcp:160456:6"/>
+The Seithians will refuſe to have to doe</l>
+               <l>With any men, ſo treacherous as you,</l>
+               <l>And for the time to come, ye lowſie Elves,</l>
+               <l>You ſhall but be a burthen to your ſelves:</l>
+               <l>And when your bodies, as your names ſhall rot,</l>
+               <l>Amongſt the damned, you ſhall have your lot.</l>
+            </lg>
+            <p>Theſe Verſes (qd. ſhe) I learnt by heart, after I had once heard them repeated, &amp; I dare ſay Goſſip <hi>Grumble,</hi> I have re<g ref="char:EOLhyphen"/>peated them word for word, according to the Authors in<g ref="char:EOLhyphen"/>tention, who had a name amongſt thoſe they call Poets, a merry man he was, and could write the fineſt Songs of <hi>Mer<g ref="char:EOLhyphen"/>cury Mercifull, Jove Jobs</hi> Son, and of <hi>June Jone</hi> his wife, come Gammer <hi>Grumble,</hi> lets have your Song and Tale now; then Gammer <hi>Grumble</hi> having taken a hearty draught of Ale be<g ref="char:EOLhyphen"/>gan to ſing,</p>
+            <lg>
+               <l>
+                  <hi>When as the chiefſt of things were in handling,</hi>
+               </l>
+               <l>
+                  <hi>Order and Diſcipline puld to the ground,</hi>
+               </l>
+               <l>
+                  <hi>And baſe Hypocriſie Rebellion dandling,</hi>
+               </l>
+               <l>
+                  <hi>Fooles walking at large, wiſe men in the pound:</hi>
+               </l>
+               <l>
+                  <hi>When as Toads flew, and Eagles did crawle,</hi>
+               </l>
+               <l>
+                  <hi>Loe a hand was put forth</hi>
+               </l>
+               <l>
+                  <hi>For to ſave thoſe of worth,</hi>
+               </l>
+               <l>
+                  <hi>Hell skreikt,</hi>
+               </l>
+               <l>
+                  <hi>Knaves ſqueikt</hi>
+               </l>
+               <l>
+                  <hi>Fearing to fall.</hi>
+               </l>
+               <l>
+                  <hi>When moſt men heard their meat would but bane them,</hi>
+               </l>
+               <l>
+                  <hi>And their own hands wound them to death;</hi>
+               </l>
+               <l>
+                  <hi>When as their Trustees in a net had tane them,</hi>
+               </l>
+               <l>
+                  <hi>And thoſe ſought their ruine to whom they gave breath,</hi>
+               </l>
+               <l>
+                  <hi>Then at that time when ſuccour was ſcant,</hi>
+               </l>
+               <l>
+                  <hi>He that they relide on,</hi>
+               </l>
+               <l>
+                  <hi>Thoſe they did confide on</hi>
+               </l>
+               <l>
+                  <hi>And thought to have wrought the ends by,</hi>
+               </l>
+               <l>
+                  <hi>Faild them</hi>
+               </l>
+               <l>
+                  <hi>Aſsaild them</hi>
+               </l>
+               <l>
+                  <hi>The truth for to try.</hi>
+               </l>
+               <l>
+                  <pb n="9" facs="tcp:160456:7"/>
+                  <hi>And now the Committee merry-arſes makes buttons,</hi>
+               </l>
+               <l>
+                  <hi>And the Excize men began for to hide,</hi>
+               </l>
+               <l>
+                  <hi>The City Churles and panch bellied gluttons,</hi>
+               </l>
+               <l>
+                  <hi>Begins for to pauſe where they may reſide,</hi>
+               </l>
+               <l>
+                  <hi>Free from the Ills are likely to fall,</hi>
+               </l>
+               <l>
+                  <hi>The Tubiſts are hoarſe</hi>
+               </l>
+               <l>
+                  <hi>And forget to diſcourſe,</hi>
+               </l>
+               <l>
+                  <hi>The Siſters are ſilent, and wiſhed</hi>
+               </l>
+               <l>
+                  <hi>They neare</hi>
+               </l>
+               <l>
+                  <hi>While yeare</hi>
+               </l>
+               <l>
+                  <hi>Had preacht at all.</hi>
+               </l>
+               <l>
+                  <hi>Time-ſerving Priests that in Pulpits reviled,</hi>
+               </l>
+               <l>
+                  <hi>And dard to abuſe their Soveraign Lord,</hi>
+               </l>
+               <l>
+                  <hi>Now with themſelves to him reconciled,</hi>
+               </l>
+               <l>
+                  <hi>Altring their Oriſons with one accord,</hi>
+               </l>
+               <l>
+                  <hi>Cheapſide Croſse was ſeen</hi>
+               </l>
+               <l>
+                  <hi>Where before it had been,</hi>
+               </l>
+               <l>
+                  <hi>Charing-Croſse was in hope</hi>
+               </l>
+               <l>
+                  <hi>Without leave of the Pope,</hi>
+               </l>
+               <l>
+                  <hi>For to be new erected,</hi>
+               </l>
+               <l>
+                  <hi>Moſt men</hi>
+               </l>
+               <l>
+                  <hi>Hopt then</hi>
+               </l>
+               <l>
+                  <hi>To have the old way agen.</hi>
+               </l>
+            </lg>
+            <p>Ha! ha! quoth mother Gowty Legs, here was a Song indeed, Gammer Scrumble I thought your me<g ref="char:EOLhyphen"/>mory had not harboured ſo fine a Song, come, lets hear your Tale Gammer Scrumble, then began her Tale, and ſaid: In a certain Kingdome, I wot not well where, there lived a King peaceable and vertuous, I know not how it was, but ſo it was, that the King was perſecuted by his Subjects, becauſe he would not al<g ref="char:EOLhyphen"/>ter thoſe lawes, which he was ſworn to maintaine, he was unwilling to be perjured, and alſo not altogether willing to ſit ſtill and hear himſelf reviled, and to be<g ref="char:EOLhyphen"/>hold
+<pb n="10" facs="tcp:160456:7"/>his friends impriſoned and maſſacred: he there<g ref="char:EOLhyphen"/>fore raiſed ſo many as he could of his faithfull Sub<g ref="char:EOLhyphen"/>jects, and often reſiſted his Enemies: but it ſo hapned, for ſo providence would have it, that at laſt hee was overcome by his Enemies, his friends ſlain &amp; diſperſt and himſelf taken priſoner, and laid in bonds: but it ſo fell out, during his impriſonment, that that Army of his Enemies who had before fought againſt him, fell at variance with the chiefeſt of thoſe that had em<g ref="char:EOLhyphen"/>ployed them, their Conſciences alſo ſmitten with re<g ref="char:EOLhyphen"/>morſe to behold their Soveraignes deſplicable eſtate, ſo that they reſolved to ſet him at liberty, and to call thoſe to an account who had primarily oppoſed him, their Generall a moſt noble and valiant Knight, liked well of their intentions, and reſolved to countenance them, licenſing a choſen party to march to the place where the King was impriſoned, and as a freed man, and their Prince to wait on him, from thence to the Army: this was performed with much celerity and magnanimity, and the King brought into the Army, of whom he was entertained as the Ark God was by the Iſraelites, with ſhowting and rejoycing; with this Ar<g ref="char:EOLhyphen"/>my for a time he reſided magnificiently waited on, in the meane time, thoſe that firſt raiſed theſe Troopes, with all ſpeed began to liſt men, and to raiſe a ſecond Army to oppoſe and maſter their firſt. Hold there qd. Gammer Gowty Legs, you are miſtaken in the Story, the major part I confeſſe to be true, but in the ſequell you are apt to erre, and therefore I ſhall relate it for you; withall my heart qd. Gammer Grumble, for my memory is very fraile: well quoth Mother <hi>Bumbey</hi> let it be ſo; but firſt Gammer Gowty legs lets hear your Song, and then the reſidue of the ſtory afterwards.
+<pb n="11" facs="tcp:160456:8"/>willingly quoth Gammer Gowty legs, and then began to ſing, <hi>Sir Iohn Loueleſse his Althea.</hi>
+            </p>
+            <lg>
+               <l>
+                  <hi>What madneſſe was it did poſſeſſe,</hi>
+               </l>
+               <l>
+                  <hi>Your minds you faithleſſe crew.</hi>
+               </l>
+               <l>
+                  <hi>That you to farr durſt to tranſgreſſe,</hi>
+               </l>
+               <l>
+                  <hi>From what Gods word doth ſhow.</hi>
+               </l>
+               <l>
+                  <hi>And under Reformations Cloake,</hi>
+               </l>
+               <l>
+                  <hi>To act the worst of crimes.</hi>
+               </l>
+               <l>
+                  <hi>While God and Mans Law both were broke,</hi>
+               </l>
+               <l>
+                  <hi>O dreery dolefull times.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>A pen made of a Ravens quill,</hi>
+               </l>
+               <l>
+                  <hi>He muſt have ſing our story.</hi>
+               </l>
+               <l>
+                  <hi>And publiſh as good a will,</hi>
+               </l>
+               <l>
+                  <hi>As you the Directory.</hi>
+               </l>
+               <l>
+                  <hi>It will the ample theame afford</hi>
+               </l>
+               <l>
+                  <hi>To write in proſe or verſe,</hi>
+               </l>
+               <l>
+                  <hi>To it Grim Pluto will accord</hi>
+               </l>
+               <l>
+                  <hi>Your Facts for to rehearſe.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Where is now all the ſeeming good</hi>
+               </l>
+               <l>
+                  <hi>We once thought to attain,</hi>
+               </l>
+               <l>
+                  <hi>Purchaſed with our coyn and bloud</hi>
+               </l>
+               <l>
+                  <hi>Againſt our Soveraign.</hi>
+               </l>
+               <l>
+                  <hi>Wheres the reforming once we hopt,</hi>
+               </l>
+               <l>
+                  <hi>wheres now our glorious King?</hi>
+               </l>
+               <l>
+                  <hi>Theſe Apples from the bowes are dropt,</hi>
+               </l>
+               <l>
+                  <hi>Twas an untimely Spring.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>VVhere is our goods and plate become</hi>
+               </l>
+               <l>
+                  <hi>Lent on the publike Faith,</hi>
+               </l>
+               <l>
+                  <hi>Whers now the Freedome wee have wene,</hi>
+               </l>
+               <l>
+                  <hi>Tis as Tom-Telltroth ſaith.</hi>
+               </l>
+               <l>
+                  <hi>Our goods and plate thoſe doe poſſeſſe,</hi>
+               </l>
+               <l>
+                  <hi>Whom Fooles wee did intrust.</hi>
+               </l>
+               <l>
+                  <hi>To helpe us who mean nothing leſſe,</hi>
+               </l>
+               <l>
+                  <hi>Our Puniſhment is Iust.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Our Reformation is no more,</hi>
+               </l>
+               <l>
+                  <hi>But Deformation plaine.</hi>
+               </l>
+               <l>
+                  <hi>In fighting for the truth before,</hi>
+               </l>
+               <l>
+                  <hi>Wee fought for others gaine.</hi>
+               </l>
+               <l>
+                  <pb facs="tcp:160456:8"/>
+                  <hi>And when the Common Prayer went hence,</hi>
+               </l>
+               <l>
+                  <hi>Or Common Freedoms all.</hi>
+               </l>
+               <l>
+                  <hi>Were abrogated all with preſence,</hi>
+               </l>
+               <l>
+                  <hi>Of ridding us from thrall.</hi>
+               </l>
+               <l>
+                  <hi>Freemen inſlaved are by thoſe,</hi>
+               </l>
+               <l>
+                  <hi>Whoſe Crimes deſerve that they.</hi>
+               </l>
+               <l>
+                  <hi>Should lodge where others obey diſpoſe,</hi>
+               </l>
+               <l>
+                  <hi>In want to pine away.</hi>
+               </l>
+               <l>
+                  <hi>Nor Law nor Iuſtice now is Free,</hi>
+               </l>
+               <l>
+                  <hi>A few doe all Ingroſſe.</hi>
+               </l>
+               <l>
+                  <hi>And in this ſtrange Calamitie,</hi>
+               </l>
+               <l>
+                  <hi>Weer forct to live by loſſe.</hi>
+               </l>
+            </lg>
+            <p>By the faith of my body, quoth M. <hi>Bumbey</hi> this ſong pleaſes mee well, it ſhall coſt me a fall but I will learn it, come now let us heare the reſt of the tale which Gammar <hi>Grumble</hi> left untold, why thus it was ſaith Gammar <hi>Gowtie Legs,</hi> the King having his Ene<g ref="char:EOLhyphen"/>myes thus miraculouſly turned to his friends not a little rejoyced as did they who ſuffered for him, and went now in hope to tryumph with him, but the Noble Generall, with the aſſent of his chiefe Officers, and the ſouldiery in generall, not without mature de<g ref="char:EOLhyphen"/>liberation conſidering that he, and they were obliged in duty to God, and love to their Country ere they diſbanded to ſee the true worſhip of God eſtabliſhed, and the Peace of their Country ſetled, unanimonſly agreed — there Gammar <hi>Gowtie Legs</hi> was at a ſtand at which M. <hi>Bumbey,</hi> and the reſt laughed, but it being ſo that none there could ſupply the Story, the old wives began to talke leſſe and tipple more, drinking healths to their old ſweethearts, then quoth Gammar <hi>Grumble</hi> M. <hi>Bumbey</hi> you can recover goods that are Stollen, and the looſers, who were the theeves, you are called a cunning woman, and have ſkill in things to come what doe you conjecture will be the Iſhue of theſe things now in Agitation in that Ile before we ſpeake of, then M. <hi>Bumbey</hi> turning about three times, and writhing her mouth at one inſpired ſaid.</p>
+            <lg>
+               <pb n="13" facs="tcp:160456:9"/>
+               <l>
+                  <hi>Hearken old Maulkins unto me,</hi>
+               </l>
+               <l>
+                  <hi>Ile tell you what ſhall after be.</hi>
+               </l>
+               <l>
+                  <hi>Set your ſelves round as in a ring,</hi>
+               </l>
+               <l>
+                  <hi>In the midſt Ile ſtand and ſing.</hi>
+               </l>
+               <l>
+                  <hi>Where thoſe that have mens faith deluded,</hi>
+               </l>
+               <l>
+                  <hi>Shall be quite from charge excluded.</hi>
+               </l>
+               <l>
+                  <hi>When ſome their error ſhall perceive,</hi>
+               </l>
+               <l>
+                  <hi>And that they were deluded grieve.</hi>
+               </l>
+               <l>
+                  <hi>And ſtrive (the head) with all their force</hi>
+               </l>
+               <l>
+                  <hi>To joyn unto the headleſse corſe,</hi>
+               </l>
+               <l>
+                  <hi>And thoſe whom late they did exile</hi>
+               </l>
+               <l>
+                  <hi>Cauſe to return into the Ile;</hi>
+               </l>
+               <l>
+                  <hi>And after all their Warlike toyle</hi>
+               </l>
+               <l>
+                  <hi>Shall wear no ſwords without a foyle,</hi>
+               </l>
+               <l>
+                  <hi>Abjuring all they did before</hi>
+               </l>
+               <l>
+                  <hi>When they paid</hi> Bonney Jockeis <hi>ſcore.</hi>
+               </l>
+               <l>
+                  <hi>A peace may chance be then agreed,</hi>
+               </l>
+               <l>
+                  <hi>And many joyous dayes ſucceed.</hi>
+               </l>
+            </lg>
+            <p>By that time ſhe had ſaid theſe lines, the reſt of the Goſſips were all aſleepe, which ſhe perceiving, ſet her ſelf down in her Chaire, and ſlept for company, where I leave them.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
